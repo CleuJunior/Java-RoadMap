@@ -1,14 +1,14 @@
-package br.com.datastructures.listimpl;
+package br.com.datastructures.vector;
 
 import br.com.datastructures.common.Employee;
 
 import java.util.ArrayList;
-import java.util.Objects;
+import java.util.Vector;
 
 public class ArrayListImpl {
 
     public static void main(String[] args) {
-        var employeeList = new ArrayList<>();
+        var employeeList = new Vector<Employee>();
 
         employeeList.add(new Employee(1, "John", "Doe"));
         employeeList.add(new Employee(2, "Jane", "Doe"));
